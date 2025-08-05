@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -8,16 +8,13 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -25,16 +22,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Selecao
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -43,17 +32,22 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-       <img src="assets/img/logo.png" alt="">
-        <!--<h1 class="sitename">GRACE-USP</h1>-->
+        <img src="assets/img/logo.png" alt="">
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">HOME</a></li>
           <li><a href="#about">QUEM SOMOS ?</a></li>
-         <!-- <li><a href="#portfolio">PROJETOS</a></li>-->
-          <li class="dropdown"><a href="#"><span>EVENTOS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>AÇÕES</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">ROBÓTICA NA ESCOLA</a></li>
+              <li><a href="#">CIÊNCIA DE DADOS PARA ENSINO MÉDIO</a></li>
+              <li><a href="#">ESCOLA DE WEB PARA MENINAS</a></li>
+              <li><a href="#">PENSAMENTO COMPUTACIONAL</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>TECH SCHOOL</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">TECHSCHOOL 2025</a></li>
               <li><a href="#">TECHSCHOOL 2024</a></li>
@@ -61,12 +55,15 @@
               <li><a href="#">TECHSCHOOL 2022</a></li>
             </ul>
           </li>
-          <!--<li class="dropdown"><a href="#"><span>PROJETOS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>MATERIAIS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">PESQUISAS</a></li>
-              <li><a href="#">PUBLICAÇÕES</a></li>
-              </ul>
-          </li>-->
+              <li><a href="#">APOSTILAS</a></li>
+              <li><a href="#">VIDEOAULAS</a></li>
+            </ul>
+          </li>
+          <li><a href="#results">RESULTADOS</a></li>
+          <li><a href="#publications">PUBLICAÇÕES</a></li>
+          <li><a href="#midia">GRACE NA MÍDIA</a></li>
           <li><a href="#services">PARCERIAS</a></li>
           <li><a href="#contact">CONTATO</a></li>
         </ul>
@@ -78,12 +75,8 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
-        <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">Bem - Vindo ao <span>GRACE-USP</span></h2>
@@ -91,8 +84,6 @@
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba Mais</a>
           </div>
         </div>
-
-        <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">slide 2</h2>
@@ -100,8 +91,6 @@
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba Mais</a>
           </div>
         </div>
-
-        <!-- Slide 3 -->
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">slide 3</h2>
@@ -109,17 +98,13 @@
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba Mais</a>
           </div>
         </div>
-
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
         </a>
-
         <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
         </a>
-
       </div>
-
       <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
         <defs>
           <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
@@ -134,320 +119,36 @@
           <use xlink:href="#wave-path" x="50" y="9"></use>
         </g>
       </svg>
+    </section>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
     <section id="about" class="about section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Sobre</h2>
         <p>QUEM SOMOS</p>
-      </div><!-- End Section Title -->
-
+      </div>
       <div class="container">
-
         <div class="row gy-4">
-
-         <!--<div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
-            </ul>
-          </div>-->
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>O GRACE (GRupo de Alunas de Ciências Exatas) é um grupo dedicado ao desenvolvimento de atividades de extensão na área de tecnologia, com foco no público feminino da cidade de São Carlos, especialmente estudantes dos níveis primário, secundário e superior.  
-
+            <p>O GRACE (GRupo de Alunas de Ciências Exatas) é um grupo dedicado ao desenvolvimento de atividades de extensão na área de tecnologia, com foco no público feminino da cidade de São Carlos, especialmente estudantes dos níveis primário, secundário e superior.
               Inserido no Programa Nacional Meninas Digitais da SBC, o GRACE busca incentivar instituições a promoverem projetos que estimulem meninas do ensino fundamental e médio a se interessarem pela área de informática, contribuindo para a redução da desigualdade de gênero na tecnologia. </p>
             <a href="#" class="read-more"><span>Saiba Mais</span><i class="bi bi-arrow-right"></i></a>
           </div>
-
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /About Section -->
-
-    <!-- Features Section -->
-    <!--<section id="features" class="features section">
-
-      <div class="container">
-
-        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-binoculars"></i>
-              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-box-seam"></i>
-              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-brightness-high"></i>
-              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-command"></i>
-              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-            </a>
-          </li>
-        </ul><!-- End Tab Nav -->
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-          <!--<div class="tab-pane fade active show" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i>
-                    <spab>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</spab>
-                  </li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>.</li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-         <!-- <div class="tab-pane fade" id="features-tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-         <!-- <div class="tab-pane fade" id="features-tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Call To Action Section -->
-    <!--<section id="call-to-action" class="call-to-action section dark-background">
-
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>PARCERIAS</h2>
-        <p>CONSTRUINDO PONTES PARA INOVAÇÃO</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria 0</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria 1</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-text" style="color: #20c997;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria -</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria 2</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-globe" style="color: #6610f2;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria 3</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-clock" style="color: #f3268c;"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Parceria 4</h3>
-              </a>
-              <p>texto</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>PROJETOS</h2>
         <p>O QUE FAZEMOS</p>
-      </div><!-- End Section Title -->
-
+      </div>
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">PESQUISAS</li>
             <li data-filter=".filter-app">PUBLICAÇÕES</li>
-          </ul><!-- End Portfolio Filters -->
-
+          </ul>
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -456,103 +157,14 @@
                 <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+            </div>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /Portfolio Section -->
-
-    <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
             {
@@ -580,7 +192,6 @@
             }
           </script>
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -595,496 +206,297 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Comentário 1</h3>
-                <h4>Aluna 1</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>texto</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Comentário 2</h3>
-                <h4>Aluna 2</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>texto</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Comentário 3</h3>
-                <h4>Aluna 3</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>texto</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Comentário 4</h3>
-                <h4>Aluna 4</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>texto</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
+            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /Testimonials Section -->
-
-    <!-- Pricing Section -->
-    <!--<section id="pricing" class="pricing section"> -->
-
-      <!-- Section Title -->
-     <!-- <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>What they are saying about us</p>
-      </div><!-- End Section Title -->
-
-      <!--<div class="container">
-
-        <div class="row gy-3">
-
-          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <!--<div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <!--<div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-         <!-- <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="pricing-item">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
+    <section id="results" class="results section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resultados</h2>
+        <p>Nossos Principais Resultados e Conquistas</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <p><strong></strong></p>
+            <p>Aqui você pode adicionar o conteúdo sobre os resultados do projeto GRACE, como gráficos, números, prêmios, etc.</p>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /Pricing Section -->
+    <section id="publications" class="publications section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publicações</h2>
+        <p>Artigos e Trabalhos Publicados</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <p><strong></strong></p>
+            <p>Listar as publicações, artigos científicos, trabalhos em congressos, etc.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Faq Section -->
+    <section id="midia" class="midia section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>GRACE na Mídia</h2>
+        <p>Veja onde já aparecemos</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <p><strong></strong></p>
+            <p>Adicionar links para notícias, reportagens e outras aparições na mídia aqui.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>PARCERIAS</h2>
+        <p>CONSTRUINDO PONTES PARA INOVAÇÃO</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Parceria 0</h3>
+              </a>
+              <p>texto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="team" class="team section">
+    </section>
+    
+    <section id="recent-posts" class="recent-posts section">
+    </section>
+    
     <section id="faq" class="faq section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Perguntas Frequentes</h2>
-        <p>Sobre o Projeto Grace-USP</p>
-      </div><!-- End Section Title -->
-
+        <p>Tire suas dúvidas sobre o Projeto Grace-USP</p>
+      </div>
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12">
             <div class="custom-accordion" id="accordion-faq">
-              <div class="accordion-item">
+
+              <h4 class="faq-category" data-aos="fade-up" data-aos-delay="100">Para quem quer participar (Alunas e Pais)</h4>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="mb-0">
                   <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                    Pergunta 0
+                    O que é o projeto GRACE-USP?
                   </button>
                 </h2>
-
-                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
+                <div id="collapse-faq-1" class="collapse show" data-parent="#accordion-faq">
                   <div class="accordion-body">
-                    Resposta 0
+                    <p>O GRACE (Grupo de Alunas de Ciências Exatas) é um grupo de extensão do ICMC/USP focado em criar e desenvolver atividades que incentivem a participação feminina na área de tecnologia e ciências exatas.</p>
                   </div>
                 </div>
               </div>
-              <!-- .accordion-item -->
-
-              <div class="accordion-item">
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
-                Pergunta 1
-              </button>
-            </h2>
-            <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
-                    <div class="accordion-body">
-                      Resposta 1
-                    </div>
-              </div>
-            </div>
-            <!-- .accordion-item -->
-
-            <div class="accordion-item">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                  Pergunta 2
-                </button>
-              </h2>
-
-              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
-                <div class="accordion-body">
-                  Resposta 2
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2">
+                    Quem pode participar das atividades?
+                  </button>
+                </h2>
+                <div id="collapse-faq-2" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Nosso público-alvo principal são meninas do ensino fundamental e médio. Dependendo da atividade, também abrimos vagas para alunas de graduação. Fique de olho em nossos eventos online, que são abertos a todos!</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- .accordion-item -->
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                    As atividades do GRACE são gratuitas?
+                  </button>
+                </h2>
+                <div id="collapse-faq-3" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Sim! Todas as nossas atividades são 100% gratuitas. Somos um projeto de extensão da universidade, e nosso objetivo é promover a inclusão e o acesso ao conhecimento.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-4">
+                    Como faço para me inscrever nos cursos e oficinas?
+                  </button>
+                </h2>
+                <div id="collapse-faq-4" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>As inscrições para todas as nossas atividades são divulgadas em nossas redes sociais, principalmente no Instagram. Geralmente, o processo é feito através de um formulário online. Siga a gente para não perder nenhuma novidade!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-5">
+                    Preciso ter algum conhecimento prévio em programação ou robótica?
+                  </button>
+                </h2>
+                <div id="collapse-faq-5" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>De forma alguma! A grande maioria de nossos cursos e oficinas é pensada para iniciantes. Nosso objetivo é ensinar do zero de uma forma divertida e acolhedora.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="700">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-6">
+                    Os participantes recebem certificado?
+                  </button>
+                </h2>
+                <div id="collapse-faq-6" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Sim, geralmente emitimos certificados de participação para quem atinge a frequência mínima exigida em nossas atividades (normalmente 75% de presença).</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="800">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-7">
+                    As atividades são presenciais ou online?
+                  </button>
+                </h2>
+                <div id="collapse-faq-7" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Oferecemos os dois formatos! Temos atividades presenciais que ocorrem no campus da USP em São Carlos e também eventos e cursos online para alcançar mais pessoas. O formato de cada atividade é sempre informado na divulgação.</p>
+                  </div>
+                </div>
+              </div>
 
+              <h4 class="faq-category" data-aos="fade-up" data-aos-delay="100">Para quem quer fazer parte do time</h4>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-8">
+                    Sou aluna da USP, como posso me tornar uma integrante do GRACE?
+                  </button>
+                </h2>
+                <div id="collapse-faq-8" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Que legal que você tem interesse! Nós geralmente abrimos processos seletivos para novas integrantes no início de cada semestre. Divulgamos todas as informações em nossas redes sociais. Fique de olho e venha fazer parte do time!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-9">
+                    O que uma integrante do GRACE faz?
+                  </button>
+                </h2>
+                <div id="collapse-faq-9" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Nossas integrantes são a alma do projeto! Elas atuam em diversas frentes, como ministrar aulas, desenvolver material didático, organizar eventos, gerenciar nossas redes sociais e muito mais.</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="faq-category" data-aos="fade-up" data-aos-delay="100">Para Escolas e Empresas (Parcerias)</h4>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-10">
+                    Como minha escola pode receber uma oficina do GRACE?
+                  </button>
+                </h2>
+                <div id="collapse-faq-10" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>Adoraríamos levar o GRACE até sua escola! Se você é representante de uma instituição de ensino, por favor, entre em contato conosco pelo nosso e-mail: <strong>grace@icmc.usp.br</strong>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-11">
+                    Minha empresa gostaria de apoiar o projeto. Como podemos ser parceiros?
+                  </button>
+                </h2>
+                <div id="collapse-faq-11" class="collapse" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    <p>O apoio de empresas é fundamental para expandirmos nossas ações. Se sua empresa tem interesse em nos apoiar, entre em contato conosco pelo e-mail <strong>grace@icmc.usp.br</strong> para conversarmos.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-      </div>
-    </section><!-- /Faq Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Organizadores</h2>
-        <p>Nossos Integrantes</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://x.com/icmc_usp"><i class="bi bi-twitter-x"></i></a>
-                  <a href="https://www.facebook.com/grace.icmc.usp/"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/grace.icmc.usp/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/company/grace-usp/"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
-    <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Atualizações</h2>
-        <p>Veja os Últimos posts da nossa página do Instagram<br></p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Post 0</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">texto</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Pessoa 0</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Post 1</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">texto</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Pessoa 1</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Post 2</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">texto</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Pessoa 2</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End recent posts list -->
-
-      </div>
-
-    </section><!-- /Recent Posts Section -->
-
-    <!-- Contact Section -->
+    </section>
+    
     <section id="contact" class="contact section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contato</h2>
         <p>Nos mande um e-mail</p>
-      </div><!-- End Section Title -->
-
+      </div>
       <div class="container" data-aos="fade" data-aos-delay="100">
-
         <div class="row gy-4">
-
           <div class="col-lg-4">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
+                <h3>Endereço</h3>
                 <p>ICMC USP / São Carlos - SP</p>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Telefone</h3>
-                <p>(XX) X XXXX-XXXX</p>
+                <p>(16) 3373-9700</p>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email</h3>
                 <p>grace@icmc.usp.br</p>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
           </div>
-
           <div class="col-lg-8">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
-
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Nome" required="">
                 </div>
-
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="E-mail" required="">
                 </div>
-
                 <div class="col-md-12">
                   <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
                 </div>
-
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
                 </div>
-
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Mensagem enviada! Obrigada.</div>
-
                   <button type="submit">Enviar</button>
                 </div>
-
               </div>
             </form>
-          </div><!-- End Contact Form -->
-
+          </div>
         </div>
-
       </div>
-
-    </section><!-- /Contact Section -->
-
+    </section>
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -1102,22 +514,15 @@
           <span>Copyright</span> <strong class="px-1 sitename">GRACE-USP</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1126,7 +531,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
