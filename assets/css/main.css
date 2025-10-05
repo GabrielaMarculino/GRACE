@@ -1019,15 +1019,15 @@ section,
   overflow: hidden;
 }
 
-.services .service-item .icon {
-  position: absolute;
-  left: -20px;
-  top: calc(50% - 30px);
+.services .service-item .icon i {
+  width: 100px; /* Largura da logo */
+  height: auto; /* Altura ajusta automaticamente */
+  transition: 0.5s;
 }
 
 .services .service-item .icon i {
-  font-size: 64px;
-  line-height: 1;
+  width: 80px; /* Largura da logo */
+  height: auto; /* Altura ajusta automaticamente */
   transition: 0.5s;
 }
 
@@ -2555,4 +2555,68 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+#about p {
+  text-align: justify;
+}
+
+.publication-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%; /* Garante que todos os itens tenham a mesma altura */
+  display: flex; /* Para controlar o layout interno */
+  flex-direction: column; /* Organiza conteúdo em coluna */
+}
+
+.publication-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.publication-item img {
+  width: 100%; /* Garante que a imagem ocupe a largura total do container */
+  height: 250px; /* Define uma altura fixa para todas as imagens */
+  object-fit: cover; /* Recorta a imagem para preencher a área sem distorcer */
+  transition: transform 0.4s ease;
+}
+
+.publication-item:hover img {
+  transform: scale(1.05);
+}
+
+.publication-item .publication-info {
+  flex-grow: 1; /* Faz com que o info ocupe o espaço restante */
+  padding: 20px;
+  background-color: #fff; /* Fundo branco para o texto */
+  color: var(--default-color); /* Cor do texto padrão */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espaço entre título e link */
+}
+
+.publication-item .publication-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+  text-align: center; /* Centraliza o título */
+}
+
+.publication-item .publication-info .cta-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent-color); /* Usa a cor de destaque rosa que já está definida */
+  margin-top: 10px;
+  display: inline-block;
+  transition: all 0.3s;
+  text-align: center; /* Centraliza o link */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+.publication-item .publication-info .cta-link:hover {
+  color: color-mix(in srgb, var(--accent-color), black 20%); /* Escurece um pouco no hover */
+  text-decoration: underline; /* Adiciona sublinhado no hover */
 }
