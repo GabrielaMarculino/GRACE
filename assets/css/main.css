@@ -2620,3 +2620,16 @@ section,
   color: color-mix(in srgb, var(--accent-color), black 20%); /* Escurece um pouco no hover */
   text-decoration: underline; /* Adiciona sublinhado no hover */
 }
+/* Ajuste para a seção QUEM SOMOS */
+.about .col-lg-6 {
+    /* Garante que a coluna tenha altura mínima para conter o conteúdo */
+    min-height: 250px; 
+}
+
+/* Alinha a imagem à direita e controla o tamanho, respeitando o espaço */
+.about .col-lg-6 img {
+    max-width: 90%; 
+    height: auto;
+    display: block;
+    margin-left: auto; /* Garante que a imagem fique alinhada à direita em telas grandes */
+}
